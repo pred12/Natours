@@ -57,10 +57,10 @@
             </div>
         </header>  
         
-        <main>
+        <main> 
             <section class="section-about">
                 <div class="u-center-text u-margin-bottom-big">
-                    <h2 class="heading-secondary u-margin-bottom-big">
+                    <h2 class="heading-secondary">
                         Exciting tours for adventurous people
                     </h2>
                 </div>
@@ -134,7 +134,7 @@
 
             <section class="section-tours">
                 <div class="u-center-text u-margin-bottom-big">
-                    <h2 class="heading-secondary u-margin-bottom-big">
+                    <h2 class="heading-secondary">
                         Most popular tours
                     </h2>
                 </div>
@@ -267,8 +267,8 @@
                             </figcaption>
                         </figure>
                         <div class="story_text">
-                            <h3 class="heading-tertiary u-margin-bottom-small">I had the best week ever with my family</h3>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos asperiores, magnam iste quae possimus natus excepturi. Facere, animi optio. Nam itaque porro ratione, nesciunt facilis voluptate veniam inventore cum dignissimos.</p>
+                            <h3 class="heading-tertiary u-margin-bottom-small u-center-text-phone">I had the best week ever with my family</h3>
+                            <p class="u-center-text-phone">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos asperiores, magnam iste quae possimus natus excepturi. Facere, animi optio. Nam itaque porro ratione, nesciunt facilis voluptate veniam inventore cum dignissimos.</p>
                         </div>
                     </div>
                     <div class="row">
@@ -280,8 +280,8 @@
                                 </figcaption>
                             </figure>
                             <div class="story_text">
-                                <h3 class="heading-tertiary u-margin-bottom-small">WOW! my life is completely denfrent now!</h3>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos asperiores, magnam iste quae possimus natus excepturi. Facere, animi optio. Nam itaque porro ratione, nesciunt facilis voluptate veniam inventore cum dignissimos.</p>
+                                <h3 class="heading-tertiary u-margin-bottom-small u-center-text-phone">WOW! my life is completely denfrent now!</h3>
+                                <p class="u-center-text-phone">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos asperiores, magnam iste quae possimus natus excepturi. Facere, animi optio. Nam itaque porro ratione, nesciunt facilis voluptate veniam inventore cum dignissimos.</p>
                             </div>
                         </div>
                         <div class="u-center-text u-margin-top-huge">
@@ -334,8 +334,12 @@
         </main>
 
         <footer class="footer">
-            <div class="footer__logo-box u-margin-bottom-big">
-                <img src="./app/img/logo-green-2x.png" alt="Full Logo" class="footer__logo" />
+            <div class="footer__logo-box">
+
+                <picture class="footer__logo">
+                    <source srcset="./app/img/logo-green-small-1x.png 1x, ./app/img/logo-green-small-2x.png 2x" media="(max-width: 37.5em)"> <!-- 600px -->
+                    <img srcset="./app/img/logo-green-1x.png 1x, ./app/img/logo-green-2x.png 2x" alt="Full Logo" class="footer__logo" />
+                </picture>
             </div>
             <div class="row">
                 <div class="col-1-of-2">
